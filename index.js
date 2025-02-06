@@ -27,4 +27,4 @@ result.on('connected',() =>{
     
 })
 
-app.use('/api', routes)
+app.use('/', routes)
