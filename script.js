@@ -95,7 +95,7 @@ saveBtn.addEventListener('click', async () => {
   renderSavedAnswers();
 
   try {
-    await fetch("http://localhost:4007/post", {
+    await fetch("https://ai-project-sigma-brown.vercel.app/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ book: { question, answers, savedDate } }) 
