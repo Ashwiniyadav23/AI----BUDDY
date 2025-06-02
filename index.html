@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 5 Answers Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>AI: Get 5 Simple Answers</h1>
+      <div class="input-section">
+        <input id="int" type="text" placeholder="Type your question here..." />
+        <button id="button">Generate</button>
+        <button id="saveBtn" style="margin-top: 1rem; display: none;">💾 Save Selected Answers</button>
+        <button id="toggleSavedBtn" style="margin-top: 1rem; display: none;">👁️ Show Saved Answers</button>
+      </div>
+    </header>
+
+    <section id="data" class="answer-section"></section>
+
+    <h2>Saved Q&A for Revision</h2>
+    <section id="savedData" class="saved-section"></section>
+  </div>
+  <!-- <select id="difficulty">
+    <option value="easy">Easy</option>
+    <option value="medium" selected>Medium</option>
+    <option value="hard">Hard</option>
+  </select> -->
+  
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
