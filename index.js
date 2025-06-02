@@ -28,3 +28,6 @@ result.on('connected',() =>{
 })
 
 app.use('/', routes)
+app.use('/',(req,res) =>{
+    res.send("Backend stored")
+})
