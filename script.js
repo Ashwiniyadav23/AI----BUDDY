@@ -29,14 +29,17 @@ btn.addEventListener('click', async () => {
 
     const fullPrompt = `
     You are a helpful AI assistant.
-    
     Please answer the following question in 5 different ways.
     Each answer should be:
-    - Clear and correct
-    - Easy to understand
-    - Explained in simple terms with a short example (if applicable)
-    - No unnecessary information
     
+    Clear and correct
+    
+    Easy to understand
+    
+    Explained in simple terms with a short example (if applicable)
+    
+    Focused and to the point (no unnecessary information)
+        
     Question: ${prompt}
     `;
     
